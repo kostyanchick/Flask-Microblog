@@ -1,0 +1,9 @@
+__pycache__/
+/flask/*
+/tmp/*
+/search.db/*
+app.db
+test.db
+azure
+*.mo
+

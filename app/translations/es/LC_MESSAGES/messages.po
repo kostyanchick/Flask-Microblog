@@ -1,0 +1,245 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-02-07 18:52+0200\n"
+"PO-Revision-Date: 2018-02-07 18:53+0200\n"
+"Last-Translator: \n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.0\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: app/__init__.py:19
+msgid "Please log in to access this page"
+msgstr "Por favor inicie sesión para acceder a esta página"
+
+#: app/emails.py:21
+#, python-format
+msgid "\"[microblog] %(nickname)s is now following you!\""
+msgstr "\"[microblog] %(nickname)s ahora te está siguiendo!\""
+
+#: app/forms.py:26
+msgid ""
+"This nickname has invalid characters. Please use letters, numbers, dots "
+"and underscores only."
+msgstr ""
+"Este apodo tiene caracteres no válidos. Utilice letras, números, puntos "
+"y guiones bajos solamente."
+
+#: app/forms.py:31
+msgid "This nickname is already in use. Please choose another one"
+msgstr "Este apodo ya está en uso. Por favor elije otro"
+
+#: app/translate.py:15
+msgid "Error: translation service not configured."
+msgstr "Error: servicio de traducción no configurado."
+
+#: app/translate.py:39
+msgid "Error: Unexpected error."
+msgstr "Error: error inesperado."
+
+#: app/views.py:61
+msgid "Your post is now live!"
+msgstr "¡Tu publicación ahora está en vivo!"
+
+#: app/views.py:86
+msgid "Invalid login. Please try again."
+msgstr "Ingreso invalido. Inténtalo de nuevo."
+
+#: app/views.py:120 app/views.py:148 app/views.py:168
+#, python-format
+msgid "User %(nickname)s not found."
+msgstr "Usuario %(nickname)s no encontrado."
+
+#: app/views.py:136
+msgid "Your changes have been saved"
+msgstr "Se han guardado los cambios"
+
+#: app/views.py:151
+msgid "you can't follow yourself!"
+msgstr "no puedes seguirte!"
+
+#: app/views.py:155
+#, python-format
+msgid "Cannot follow %(nickname)s."
+msgstr "No se puede seguir %(nickname)s."
+
+#: app/views.py:159
+#, python-format
+msgid "You are now following %(nickname)s!"
+msgstr "¡Ahora estás siguiendo %(nickname)s!"
+
+#: app/views.py:171
+msgid "You can't unfollow yourself!"
+msgstr "¡No puedes dejar de seguir!"
+
+#: app/views.py:175
+#, python-format
+msgid "Cannot unfollow %(nickname)s"
+msgstr "No se puede dejar de seguir %(nickname)s"
+
+#: app/views.py:179
+#, python-format
+msgid "You have stopped following %(nickname)s"
+msgstr "Has dejado de seguir %(nickname)s"
+
+#: app/templates/404.html:5
+msgid "File Not Found"
+msgstr "Archivo no encontrado"
+
+#: app/templates/404.html:6 app/templates/500.html:7
+msgid "Back"
+msgstr "Espalda"
+
+#: app/templates/500.html:5
+msgid "An unexpected error has occured"
+msgstr "Ha ocurrido un error inesperado"
+
+#: app/templates/500.html:6
+msgid "The administrator has been notified. Sorry for the inconvenience!"
+msgstr ""
+"El administrador ha sido notificado. ¡Lo siento por los inconvenientes "
+"ocasionados!"
+
+#: app/templates/base.html:30
+msgid "Error: Could not contact server."
+msgstr "Error: no se pudo contactar al servidor."
+
+#: app/templates/edit.html:5
+msgid "Edit Your Profile"
+msgstr "Edite su perfil"
+
+#: app/templates/edit.html:12
+msgid "Your nickname:"
+msgstr "Tu apodo:"
+
+#: app/templates/edit.html:21
+msgid "About yourself:"
+msgstr "Acerca de ti mismo:"
+
+#: app/templates/edit.html:31
+msgid "Save changes"
+msgstr "Guardar cambios"
+
+#: app/templates/follower_email.html:1
+#, python-format
+msgid "Dear %(nickname)s,"
+msgstr "Estimado %(nickname)s,"
+
+#: app/templates/follower_email.html:4
+#, python-format
+msgid "%(nickname)s is now a follower."
+msgstr "%(nickname)s ahora es seguidor."
+
+#: app/templates/follower_email.html:17
+msgid "Regards,"
+msgstr "Saludos,"
+
+#: app/templates/follower_email.html:19
+msgid "The <code>microblog's</code> admin,"
+msgstr "El administrador del <code> microblog </ code>,"
+
+#: app/templates/index.html:3
+#, python-format
+msgid "Hi, %(nickname)s!"
+msgstr "Hola, %(nickname)s!"
+
+#: app/templates/index.html:11
+msgid "Say something:"
+msgstr "Di algo:"
+
+#: app/templates/index.html:21
+msgid "Post!"
+msgstr "¡Enviar!"
+
+#: app/templates/index.html:35 app/templates/index.html:37
+#: app/templates/user.html:34 app/templates/user.html:36
+msgid "Newer posts"
+msgstr "las publicaciones más nuevas"
+
+#: app/templates/index.html:40 app/templates/index.html:42
+#: app/templates/user.html:39 app/templates/user.html:41
+msgid "Older posts"
+msgstr "Publicaciones anteriores"
+
+#: app/templates/login.html:22
+msgid "Please Sign In"
+msgstr "Por favor, registrese"
+
+#: app/templates/login.html:25
+msgid "Click on your OpenID below:"
+msgstr "Haga clic en su OpenID a continuación:"
+
+#: app/templates/login.html:34
+msgid "Or enter your OpenID here:"
+msgstr "O ingrese su OpenID aquí:"
+
+#: app/templates/login.html:45
+msgid "Remember Me"
+msgstr "Recuérdame"
+
+#: app/templates/login.html:51
+msgid "Sign In"
+msgstr "Registrarse"
+
+#: app/templates/navbar.html:10
+msgid "Home"
+msgstr "Casa"
+
+#: app/templates/navbar.html:12
+msgid "Your Profile"
+msgstr "Tu perfil"
+
+#: app/templates/navbar.html:13
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: app/templates/navbar.html:20
+msgid "Search"
+msgstr "Buscar"
+
+#: app/templates/search_results.html:5
+#, python-format
+msgid "Search results for \"%(query)s\":"
+msgstr "Resultados de búsqueda para \"%(query)s\":"
+
+#: app/templates/user.html:14
+#, python-format
+msgid "Last seen on: %(when)s"
+msgstr "Visto por última vez en: %(when)s"
+
+#: app/templates/user.html:16
+msgid "Followers:"
+msgstr "Seguidores:"
+
+#: app/templates/user.html:16
+msgid "Following:"
+msgstr "Siguiendo:"
+
+#: app/templates/user.html:18
+msgid "Edit your profile"
+msgstr "Edite su perfil"
+
+#: app/templates/user.html:20
+msgid "Follow"
+msgstr "Seguir"
+
+#: app/templates/user.html:22
+msgid "Unfollow"
+msgstr "Dejar de seguir"
+
+#~ msgid "%(nickname)s said %(when)s:"
+#~ msgstr "%(nickname)s dijo %(when)s:"
+
+#~ msgid "Translate"
+#~ msgstr "Traducir"
